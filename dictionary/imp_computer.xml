@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="Computer" max_length="40" name="imp_computer" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="FQDN Name (ACC)    " max_length="40" name="u_fqdn_name__acc_____" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label=" Roles  " max_length="40" name="u_roles__" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="   IP Address    " max_length="40" name="u____ip_address____" type="string"/>
+    </element>
+</database>
